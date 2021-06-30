@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <div id="site">
+        <div id="yourFeed"><h1>Your Feed</h1></div>
+        <div id="leftside">
+            <img src="img/user-circle.png" alt="userCircle">
+            <h2 class="addAvatar">Add an avatar</h2>
+            <h2 class="Name">Christopher Sarazin</h2>
+        </div>
+        <div id="rightside">
+            <div id="posts" class="neil">
+                <div id="topPost">
+                    <h1>Neil M</h1>
+                    <h2 id="likecountA">0</h2>
+                    <h2>Likes</h2>
+                    <button onclick="increaseLikesA()" id="likeButton">Like</button>
+                </div>
+                <div id="BotPost">
+                    <p>This is where people post stuff</p>
+                </div>
+            </div>
+            <div id="posts" class="neil">
+                <div id="topPost">
+                    <h1>Jim R</h1>
+                    <h2 id="likecountB">0</h2>
+                    <h2>Likes</h2>
+                    <button onclick="increaseLikesB()" id="likeButton">Like</button>
+                </div>
+                <div id="BotPost">
+                    <p>This is where people post stuff</p>
+                </div>
+            </div>
+            <div id="posts" class="neil">
+                <div id="topPost">
+                    <h1>Nichole</h1>
+                    <h2 id="likecountC">0</h2>
+                    <h2>Likes</h2>
+                    <button onclick="increaseLikesC()" id="likeButton">Like</button>
+                </div>
+                <div id="BotPost">
+                    <p>This is where people post stuff</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

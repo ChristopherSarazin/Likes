@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    margin: 0px auto;
+    align-content: center;
+    display: flex;
+}
+nav>h1{
+    color: antiquewhite;
+    align-self: center;
+    margin: 0px 50px;
+    font-size: 45px;
+}
+#site{
+    height: 85vh;
+    width: 80%;
+    display: flex;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+#yourFeed{
+    text-align: center;
+    font-size: larger;
+    margin: 0px auto;
+    height: 8%;
+    width: 100%;
+}
+#leftside{
+    height: 45%;
+    width: 23%;
+    border: 2px solid black;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#rightside{
+    width: 75%;
+    height: 80%;
+    margin: 0px auto;
+}
+img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.addAvatar{
+    text-decoration: underline;
+    color: rgb(3, 158, 197);
+}
+#topPost{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+} 
+#topPost>h1{
+    margin: 20px 20px;
+}
+#likeButton{
+    height: 30px;
+    width: 20%;
+    float: right;
+    margin: 20px 50px;
+    background-color: rgb(255, 230, 2);
+}
+#likecountA{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+#likecountB{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+#likecountC{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+#topPost>h2{
+    margin-top: 20px;
+}
+#BotPost{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+p{
+    align-self: center;
+    margin: 0px auto;
+}
